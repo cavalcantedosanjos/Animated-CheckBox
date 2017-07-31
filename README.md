@@ -15,9 +15,12 @@
 * TODO
 
 # Properties
-* @property (nonatomic) IBInspectable BOOL isSelected;
-* @property (nonatomic, weak) IBInspectable UIColor* borderColor;
-* @property (nonatomic, weak) IBInspectable UIColor* checkColor;
+
+```objective-c
+    @property (nonatomic) IBInspectable BOOL isSelected;
+    @property (nonatomic, weak) IBInspectable UIColor* borderColor;
+    @property (nonatomic, weak) IBInspectable UIColor* checkColor;
+```
 
 # Actions
 * UIControlEventValueChanged
